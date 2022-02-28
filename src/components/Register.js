@@ -2,10 +2,9 @@ import React from 'react'
 import Input from '@mui/material/Input';
 import Button from '@mui/material/Button';
 import '../style/LoginPage.css';
-
-function LoginPage() {
+function Regiter() {
   return (
-      <div className='login'>
+    <div className='login'>
           <div className='container'>
               <div className='left'>
                  <img className='logoo' src='./images/logo.png' alt='nono' />
@@ -15,20 +14,21 @@ function LoginPage() {
                  </div>
               </div>
               <div className='right'>
-                  <div className='loginbox'>
+                  <div className='loginbox registerbox'>
                     <div className='signintext'>
-                    <h1>Sign in</h1>
+                    <h1>Register</h1>
                     </div>
                     <div className='formdiv'>
                       <form >
                       <div className='formform'>
+                      <Input className='textfield1' placeholder="Company  name"/>
                       <Input className='textfield1' placeholder="email id"/>
                     <Input className='textfield1' placeholder="password" type='password'/>
+                    <Input className='textfield1' placeholder="Comfirm Password" type='password'/>
 
                       </div>
                       <div className='formform'>
-                        <p className='notsigned'>Not yet registered? <a href='/register'>register!</a></p>
-                      <Button href='/home' type='submit' className='textfield2' variant="contained">Sign in</Button>
+                      <Button href='/home' type='submit' className='textfield2' variant="contained">Register</Button>
                     </div>
                     </form>
                     </div>
@@ -41,4 +41,4 @@ function LoginPage() {
   )
 }
 
-export default LoginPage
+export default Regiter

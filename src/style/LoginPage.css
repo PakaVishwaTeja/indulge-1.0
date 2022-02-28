@@ -52,11 +52,18 @@
 }.formform{
     display: flex;
     flex-direction: column;
-    padding: 30px 50px 30px 50px;
+    padding: 30px 50px 0px 50px;
 }
 .textfield1{
     margin: 20px 0px;
 }
 .signintext{
     padding: 30px 50px 0px 50px;
+}
+.notsigned{
+    margin-bottom: 20px;
+}
+.registerbox{
+    height: 64vh !important;
+
 }
