@@ -10,8 +10,6 @@ function Home() {
            <Navbar/>
            <div className='mainhome' ><HrContent/></div>
       </div>
-      
-    
     </>
   )
 }
