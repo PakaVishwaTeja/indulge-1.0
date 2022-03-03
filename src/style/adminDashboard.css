@@ -17,6 +17,10 @@
 
 .cardAlign {
     margin: 8vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cardHeading{
